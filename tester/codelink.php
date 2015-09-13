@@ -18,13 +18,13 @@
 =======
 		/*Create input and output files*/ 
 		$myFile=dirname(__FILE__).DIRECTORY_SEPARATOR.'$PWD\jsons\\'.$dataname.'-input.json';
-		shell_exec('chmod 777 '.$myFile);
+		#shell_exec('chmod 777 '.$myFile);
 		shell_exec('mkdir '.dirname(__FILE__).DIRECTORY_SEPARATOR.'$PWD\jsons\\');
 		$filedata=json_encode($data);
 		file_put_contents($myFile, $filedata);
 >>>>>>> b8214aa124815e03ed8aa899850730a615c51c39
 
-		shell_exec('python '.$program.' '.$myfile);
+		shell_exec('python '.$program.' '.$myFile);
 
 		// //$myFile = shell_exec('echo $PWD/jsons/').$dataname.'-input.json';
 		// //$outFile = shell_exec('echo $PWD/jsons/').$dataname.'-output.json';

@@ -3,7 +3,7 @@
   $program='test.py';
 
   $dataname='forminfo';
-  $data='2+2';
+  $data='2+9';
 
   $dataname2='forminfo';
   $data2='2+1';
