@@ -28,13 +28,13 @@
 		$result = '';
 		
 		//get current working directory
-		$loc=shell_exec("echo \$PWD");
+		$loc=getcwd();//shell_exec("echo \$PWD");
 
 		//$PWD returns extra space at end, this removes it
-		$loca = substr($loc, 0, -1);
+		//$loca = substr($loc, 0, -1);
 
 		//adds relative location of jsons to create absolute path
-		$loc = $loca."/jsons/";
+		$loc = $loc."/jsons/";
 
 		//get current microsecond of each second and converts it to integer
 		$micro = microtime()*1000000;
