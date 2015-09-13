@@ -1,8 +1,10 @@
 <?php
   include 'codelink.php';
   $program='test.py';
-  $dataname1='forminfo';
-  $data1='1+1';
+
+  $dataname='forminfo';
+  $data='2+2';
+
   $dataname2='forminfo';
   $data2='2+1';
 
