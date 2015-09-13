@@ -3,11 +3,11 @@
   $program='test.py';
 
   $dataname='forminfo';
-  $data='2+9';
+  $data=array(1,2,3,4);
 
   $dataname2='forminfo';
   $data2='2+1';
 
- echo codelink_pass($program,$dataname1,$data1);
+ echo codelink_pass($program,$dataname,$data);
 
 ?>
