@@ -1,13 +1,62 @@
 <?php
   include 'codelink.php';
-  $program='test.py';
+  $program='python test.py';
 
   $dataname='forminfo';
-  $data=array(1,2,3,4);
-
-  $dataname2='forminfo';
+  $data="Welcome to Drone Town doubles city";
+  $dataname2='puredata';
   $data2='2+1';
+ $result=codelink_pass($program,$dataname,$data);
+ echo $result;
+  // $result=array();
+  // array_push($result, codelink_pass($program,$dataname,$data));
+ # array_push($result, codelink_pass($program,$dataname2,$data2));
+ // array_push($result, codelink_pass($program,$dataname,$data));
+ // array_push($result, codelink_pass($program,$dataname2,$data2));array_push($result, codelink_pass($program,$dataname,$data));
+ // array_push($result, codelink_pass($program,$dataname2,$data2));array_push($result, codelink_pass($program,$dataname,$data));
+ // array_push($result, codelink_pass($program,$dataname2,$data2));array_push($result, codelink_pass($program,$dataname,$data));
+ // array_push($result, codelink_pass($program,$dataname2,$data2));array_push($result, codelink_pass($program,$dataname,$data));
+ // array_push($result, codelink_pass($program,$dataname2,$data2));array_push($result, codelink_pass($program,$dataname,$data));
+ // array_push($result, codelink_pass($program,$dataname2,$data2));array_push($result, codelink_pass($program,$dataname,$data));
+ // array_push($result, codelink_pass($program,$dataname2,$data2));array_push($result, codelink_pass($program,$dataname,$data));
+ // array_push($result, codelink_pass($program,$dataname2,$data2));array_push($result, codelink_pass($program,$dataname,$data));
+ // array_push($result, codelink_pass($program,$dataname2,$data2));array_push($result, codelink_pass($program,$dataname,$data));
+ // array_push($result, codelink_pass($program,$dataname2,$data2));array_push($result, codelink_pass($program,$dataname,$data));
+ // array_push($result, codelink_pass($program,$dataname2,$data2));array_push($result, codelink_pass($program,$dataname,$data));
+ // array_push($result, codelink_pass($program,$dataname2,$data2));array_push($result, codelink_pass($program,$dataname,$data));
+ // array_push($result, codelink_pass($program,$dataname2,$data2));array_push($result, codelink_pass($program,$dataname,$data));
+ // array_push($result, codelink_pass($program,$dataname2,$data2));array_push($result, codelink_pass($program,$dataname,$data));
+ // array_push($result, codelink_pass($program,$dataname2,$data2));array_push($result, codelink_pass($program,$dataname,$data));
+ // array_push($result, codelink_pass($program,$dataname2,$data2));array_push($result, codelink_pass($program,$dataname,$data));
+ // array_push($result, codelink_pass($program,$dataname2,$data2));array_push($result, codelink_pass($program,$dataname,$data));
+ // array_push($result, codelink_pass($program,$dataname2,$data2));array_push($result, codelink_pass($program,$dataname,$data));
+ // array_push($result, codelink_pass($program,$dataname2,$data2));array_push($result, codelink_pass($program,$dataname,$data));
+ // array_push($result, codelink_pass($program,$dataname2,$data2));array_push($result, codelink_pass($program,$dataname,$data));
+ // array_push($result, codelink_pass($program,$dataname2,$data2));array_push($result, codelink_pass($program,$dataname,$data));
+ // array_push($result, codelink_pass($program,$dataname2,$data2));array_push($result, codelink_pass($program,$dataname,$data));
+ // array_push($result, codelink_pass($program,$dataname2,$data2));array_push($result, codelink_pass($program,$dataname,$data));
+ // array_push($result, codelink_pass($program,$dataname2,$data2));array_push($result, codelink_pass($program,$dataname,$data));
+ // array_push($result, codelink_pass($program,$dataname2,$data2));array_push($result, codelink_pass($program,$dataname,$data));
+ // array_push($result, codelink_pass($program,$dataname2,$data2));array_push($result, codelink_pass($program,$dataname,$data));
+ // array_push($result, codelink_pass($program,$dataname2,$data2));array_push($result, codelink_pass($program,$dataname,$data));
+ // array_push($result, codelink_pass($program,$dataname2,$data2));array_push($result, codelink_pass($program,$dataname,$data));
+ // array_push($result, codelink_pass($program,$dataname2,$data2));array_push($result, codelink_pass($program,$dataname,$data));
+ // array_push($result, codelink_pass($program,$dataname2,$data2));array_push($result, codelink_pass($program,$dataname,$data));
+ // array_push($result, codelink_pass($program,$dataname2,$data2));array_push($result, codelink_pass($program,$dataname,$data));
+ // array_push($result, codelink_pass($program,$dataname2,$data2));array_push($result, codelink_pass($program,$dataname,$data));
+ // array_push($result, codelink_pass($program,$dataname2,$data2));array_push($result, codelink_pass($program,$dataname,$data));
+ // array_push($result, codelink_pass($program,$dataname2,$data2));array_push($result, codelink_pass($program,$dataname,$data));
+ // array_push($result, codelink_pass($program,$dataname2,$data2));array_push($result, codelink_pass($program,$dataname,$data));
+ // array_push($result, codelink_pass($program,$dataname2,$data2));array_push($result, codelink_pass($program,$dataname,$data));
+ // array_push($result, codelink_pass($program,$dataname2,$data2));array_push($result, codelink_pass($program,$dataname,$data));
+ // array_push($result, codelink_pass($program,$dataname2,$data2));array_push($result, codelink_pass($program,$dataname,$data));
+ // array_push($result, codelink_pass($program,$dataname2,$data2));array_push($result, codelink_pass($program,$dataname,$data));
+ // array_push($result, codelink_pass($program,$dataname2,$data2));array_push($result, codelink_pass($program,$dataname,$data));
+ // array_push($result, codelink_pass($program,$dataname2,$data2));array_push($result, codelink_pass($program,$dataname,$data));
+ // array_push($result, codelink_pass($program,$dataname2,$data2));array_push($result, codelink_pass($program,$dataname,$data));
+ // array_push($result, codelink_pass($program,$dataname2,$data2));
+ // var_dump(codelink_pass($program,$dataname,$data));
+ // var_dump(codelink_pass($program,$dataname2,$data2));
 
- echo codelink_pass($program,$dataname,$data);
-
+ //var_dump($result);
 ?>

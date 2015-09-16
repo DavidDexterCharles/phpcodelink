@@ -1,7 +1,19 @@
 import json
+import os
 
-def codelink_receive(dataname):
-	rdata=open('$PWD/jsons/'+ dataname+'-input.json','w')
+def check_param(arr):
+	print arr
+	
+
+def codelink_receive(arr):
+	rdata=open('jsons/'+arr[1])
 	result = json.load(rdata)
-	print result
-	return 'apples' #result
+	rdata.close()
+	return result
+
+def codelink_send(data,arr):
+	wdata=open('jsons/'+arr[2],'w')
+	wdata.write(data)
+	wdata.close()	
+	os.remove('jsons/'+arr[1])
+	

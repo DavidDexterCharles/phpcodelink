@@ -28,22 +28,23 @@
 		$outFileName = $time."-".$dataname."-output.json";
 
 		//open file, write data, close file
-		$myfile = fopen($loc.$inFileName, "w");
-		fwrite($myfile,json_encode($data));
-		fclose($myfile);
-		$myfile = fopen($loc.$outFileName, "w");
-		fwrite($myfile," ");
-		fclose($myfile);
+		// $myfile = fopen($loc.$inFileName, "w");
+		// fwrite($myfile,json_encode($data));
+		// fclose($myfile);
+
+		//debug code
+		//echo "loc: ".$loc."<br>";
+		//echo $inFileName."<br>";
+		//echo $outFileName."<br>";
+
+		//call program
+		$result=shell_exec('python '.'codelink.py'.' '.escapeshellarg(json_encode($data)));
+
+		//shell_exec('python '.$program.' '.$dataname. " ". $time . " " . $loc);
 		
-
-		shell_exec($program.' '.$inFileName.' '.$outFileName);
-		$result = file_get_contents($loc.$outFileName);
-
-		unlink("./jsons/".$outFileName);
-		#var_dump(json_decode($result,true));
-
-		return $result;
-		
+		// echo 'done';
+		// echo $result;
+		 return $result;
 	}
 
 	//echo 'compiled<br>';

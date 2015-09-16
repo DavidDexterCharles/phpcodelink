@@ -1,18 +1,14 @@
 import sys
-#from codelink import codelink_receive
+
+from codelink import *# check_param,codelink_receive,codelink_send
 
 
-#result = codelink_receive('forminfo')
-#===============================================================================
-# 
-# Accept dataname,timestamp,working directory
-#===============================================================================
-
-print sys.argv[0]
-print len(sys.argv)
-#print result
-foutput= open(sys.argv[3]+sys.argv[2]+'-'+sys.argv[1]+'-output.json', 'w')
-foutput.write('Apples')
-foutput.close()
 
 
+check_param(sys.argv)#output the arguments passed in that includes the script being executed,the inputfile that stores the info,and the output file from which php gets the info
+codelink_receive(sys.argv)#gets data that was passed from php
+
+#codelink_send('{"name":"david","name2":"warren"}',sys.argv)#sends the results back to php
+
+
+codelink_send(codelink_receive(sys.argv),sys.argv)
